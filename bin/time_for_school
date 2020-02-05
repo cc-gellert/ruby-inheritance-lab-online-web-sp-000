@@ -26,8 +26,8 @@ steve.learn(more_knowledge)
 paws = Student.new 
 paws.first_name = "Admiral"
 paws.last_name = "McPaws" 
- cat_knowledge = avi.teach 
- paws.learn(cat_knowledge) 
+cat_knowledge = avi.teach 
+paws.learn(cat_knowledge) 
  
  puts(steve.knowledge)
  puts(paws.knowledge)
