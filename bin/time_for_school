@@ -15,10 +15,21 @@ avi.last_name = "Flombaum"
 jim = User.new
 jim.first_name = "Jim" 
 jim.last_name = "Johnathan"
-jim.learn
 
 some_knowledge = avi.teach 
 
 steve.learn(some_knowledge)
+
+more_knowledge = avi.teach 
+steve.learn(more_knowledge) 
+
+paws = Student.new 
+paws.first_name = "Admiral"
+paws.last_name = "McPaws" 
+ cat_knowledge = avi.teach 
+ paws.learn(cat_knowledge) 
+ 
+ puts(steve.knowledge)
+ puts(paws.knowledge)
 
 puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
